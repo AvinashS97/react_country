@@ -172,19 +172,19 @@ nav ul {
 
 .hero-section .container {
   padding: 3.2rem;
-  margin: 9rem auto;
+  margin: 8rem auto;
   gap: 6.4rem;
 }
 
 .paragraph {
-  margin: 3.2rem 0;
+  margin: 1.2rem auto;
 }
 
 .heading-xl {
   font-family: inherit;
-  font-size: clamp(5.2rem, 6vw, 4.241rem);
+  font-size: clamp(2.2rem, 2vw, 4.241rem);
   font-weight: 700;
-  line-height: 1.15;
+  line-height: 5.15;
   letter-spacing: -1px;
 }
 

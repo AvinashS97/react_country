@@ -16,7 +16,7 @@ export const Home = () => {
                 </button>
             </div>
             <div className="hero-image">
-                <img src=""></img>
+                <img src="/images/world.png" alt="world wide image" className="banner-image"/>
             </div>
         </div>
         </main>
