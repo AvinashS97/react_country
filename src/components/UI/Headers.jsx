@@ -4,7 +4,7 @@ export const Headers =() => {
     return (
         <header>
             <div className="container">
-                <div className="navbar-grid">
+                <div className="grid navbar-grid">
                     <div className="Logo">
                         <NavLink to="/">
                             <h1>WorldAtlas</h1>
@@ -13,11 +13,10 @@ export const Headers =() => {
 
                     <nav>
                         <ul>
-                            <li> <NavLink to="/"></NavLink></li>
-                            <li> <NavLink to="/"></NavLink></li>
-                            <li> <NavLink to="/"></NavLink></li>
-                            <li> <NavLink to="/"></NavLink></li>
-                            <li> <NavLink to="/"></NavLink></li>
+                            <li> <NavLink to="/">Home</NavLink></li>
+                            <li> <NavLink to="/about">About</NavLink></li>
+                            <li> <NavLink to="/contact">Contact</NavLink></li>
+                            <li> <NavLink to="/country">Country</NavLink></li>
                         </ul>
                     </nav>
                 </div>

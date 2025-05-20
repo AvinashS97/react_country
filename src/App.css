@@ -100,32 +100,32 @@ button {
 /* Layout  */
 
 header {
-  height: 10rem;
+  height: 5rem;
   box-shadow: rgba(255, 255, 255, 0.3) 0px 10px 10px -10px;
   background-color: #202020;
   width: 100%;
 
   & .container {
-    height: 10rem;
+    height: 5rem;
   }
 }
 
 .navbar-grid {
   grid-template-columns: 0.5fr 1fr;
   align-items: center;
-  height: 10rem;
+  height: 5rem;
   padding: 0 3.2rem;
 }
 
 nav ul {
   display: flex;
   justify-content: flex-end;
-  /* background-color: yellow; */
   gap: 3.2rem;
   color: #fff;
 
   & li a {
     color: #fff;
+    text-decoration: none;
   }
 }
 
