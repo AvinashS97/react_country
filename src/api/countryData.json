@@ -10,49 +10,49 @@
     "id": 2,
     "countryName": "Nepal",
     "capital": "Kathmandu",
-    "population": 29609623,
+    "population": "29.62 million",
     "interestingFact": "Nepal is home to Mount Everest, the tallest mountain in the world, standing at 8,848 meters."
   },
   {
     "id": 3,
     "countryName": "Egypt",
     "capital": "Cairo",
-    "population": 104258327,
+    "population": "118.37 million",
     "interestingFact": "The Pyramids of Giza are one of the Seven Wonders of the Ancient World."
   },
   {
     "id": 4,
     "countryName": "Australia",
     "capital": "Canberra",
-    "population": 25687041,
+    "population": "26.97 million",
     "interestingFact": "Australia is home to the Great Barrier Reef, the largest coral reef system in the world."
   },
   {
     "id": 5,
     "countryName": "Brazil",
     "capital": "Brasilia",
-    "population": 213993437,
+    "population": "212.81 million",
     "interestingFact": "Brazil is home to the Amazon Rainforest, the largest tropical rainforest in the world."
   },
   {
     "id": 6,
     "countryName": "France",
     "capital": "Paris",
-    "population": 67407241,
+    "population": "66.65 million",
     "interestingFact": "The Eiffel Tower in Paris was once the tallest man-made structure in the world."
   },
   {
     "id": 7,
     "countryName": "Russia",
     "capital": "Moscow",
-    "population": 1324216107,
+    "population": "144.00 million",
     "interestingFact": "Russia is the largest country in the world by area, covering more than 17 million square kilometers."
   },
   {
     "id": 8,
     "countryName": "China",
     "capital": "Beijing",
-    "population": 1444216107,
+    "population": "1.42 billion",
     "interestingFact": "The Great Wall of China is visible from space on rare occasions."
   }
 ]
