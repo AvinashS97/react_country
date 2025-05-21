@@ -22,7 +22,5 @@ export const Headers =() => {
                 </div>
             </div>
         </header>
-    )
-}
-
-// 46:23
+    );
+};
