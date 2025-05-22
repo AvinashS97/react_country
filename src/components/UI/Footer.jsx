@@ -27,6 +27,21 @@ export const Footers = () => {
                     })
                 }
             </div>
+
+            <div className="copyright-area">
+                <div className="container">
+                    <div className="grid grid-two-cols">
+                        <div className="copyright-text">
+                            <p>
+                                Copyright &copy; 2025, All Right Reserved
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </footer>
     );
 };
+
+// 01:38:24
