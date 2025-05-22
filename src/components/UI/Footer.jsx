@@ -1,5 +1,32 @@
-export const Footer =() => {
+import { MdPlace } from "react-icons/md";
+import footerContact from "../../api/footerApi.json";
+import { IoCallSharp } from "react-icons/io5";
+import { TbMailPlus } from "react-icons/tb";
+
+export const Footers = () => {
+    const footerIcon = {
+        MdPlace: <MdPlace />,
+        IoCallSharp: <IoCallSharp />,
+        TbMailPlus: <TbMailPlus />,
+    }
     return (
-        <h1>Hello Footer</h1>
-    )
-}
+        <footer className="footer-section">
+            <div className="grid grid-three-cols container">
+                {
+                    footerContact.map((curData, index) => {
+                        const { icon, title, details } = curData;
+                        return (
+                            <div className="footer-contact" key={index}>
+                                <div className="icon">{footerIcon[icon]}</div>
+                                <div className="footer-contact-text">
+                                    <p>{title}</p>
+                                    <p>{details}</p>
+                                </div>
+                            </div>
+                        );
+                    })
+                }
+            </div>
+        </footer>
+    );
+};
