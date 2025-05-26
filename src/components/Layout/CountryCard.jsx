@@ -17,7 +17,7 @@ export const CountryCard = ({country}) => {
                 <p>
                     <span className="card-description">Population:</span>{capital[0]}
                 </p>
-                <NavLink to={`/contact/${name.common}`}>
+                <NavLink to={`/country/${name.common}`}>
                     <button>Read More</button>
                 </NavLink>
 
