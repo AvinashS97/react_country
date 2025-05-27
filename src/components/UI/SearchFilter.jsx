@@ -4,26 +4,26 @@ export const SearchFilter = ({
     filter,
     setFilter,
     countries,
-    setCountries,
+    setCountries
 }) => {
     const handleInputChange = event => {
         event.preventDefault()
         setSearch(event.target.value)
-    }
+    };
 
     const handleSelectChange = event => {
         event.preventDefault()
         setFilter(event.target.value)
-    }
+    };
 
     const sortCountries = value => {
         const sortCountry = [...countries].sort((a, b) => {
             return value === 'asc'
                 ? a.name.common.localeCompare(b.name.common)
                 : b.name.common.localeCompare(a.name.common)
-        })
-        setCountries(sortCountry)
-    }
+        });
+        setCountries(sortCountry);
+    };
 
     return (
         <section className='section-searchFilter container'>
@@ -33,6 +33,7 @@ export const SearchFilter = ({
                     placeholder='search'
                     value={search}
                     onChange={handleInputChange}
+                    className='select-section'
                 />
             </div>
 
@@ -59,5 +60,5 @@ export const SearchFilter = ({
                 </select>
             </div>
         </section>
-    )
-}
+    );
+};

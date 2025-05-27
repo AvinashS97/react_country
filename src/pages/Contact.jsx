@@ -3,7 +3,7 @@ export const Contact = () => {
         // console.log(formData.entries());
         const formInputData = Object.fromEntries(formData.entries());
         console.log(formInputData);
-    }
+    };
   return (
     <section>
       <h2 className='container-title'>Contact Us</h2>
@@ -30,7 +30,7 @@ export const Contact = () => {
             rows='10'
             className='form-control'
             required
-            autoComplete='false'
+            autoComplete='off'
             placeholder='Enter Your message'
             name='message'
           ></textarea>
